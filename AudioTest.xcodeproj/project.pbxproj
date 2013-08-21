@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B88E7E9B17C537A50009BD5E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88E7E9A17C537A50009BD5E /* AudioToolbox.framework */; };
 		B8B2A02F17C534CD001D92B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2A02E17C534CD001D92B4 /* UIKit.framework */; };
 		B8B2A03117C534CD001D92B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2A03017C534CD001D92B4 /* Foundation.framework */; };
 		B8B2A03317C534CD001D92B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2A03217C534CD001D92B4 /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B88E7E9A17C537A50009BD5E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B8B2A02A17C534CD001D92B4 /* AudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B2A02E17C534CD001D92B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8B2A03017C534CD001D92B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88E7E9B17C537A50009BD5E /* AudioToolbox.framework in Frameworks */,
 				B8B2A02F17C534CD001D92B4 /* UIKit.framework in Frameworks */,
 				B8B2A03117C534CD001D92B4 /* Foundation.framework in Frameworks */,
 				B8B2A03317C534CD001D92B4 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +92,7 @@
 		B8B2A01F17C534CD001D92B4 = {
 			isa = PBXGroup;
 			children = (
+				B88E7E9A17C537A50009BD5E /* AudioToolbox.framework */,
 				B8B2A03417C534CD001D92B4 /* AudioTest */,
 				B8B2A05B17C534CE001D92B4 /* AudioTestTests */,
 				B8B2A02D17C534CD001D92B4 /* Frameworks */,
@@ -460,6 +464,7 @@
 				B8B2A06817C534CE001D92B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8B2A06917C534CE001D92B4 /* Build configuration list for PBXNativeTarget "AudioTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				B8B2A06B17C534CE001D92B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
